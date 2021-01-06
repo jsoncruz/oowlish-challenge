@@ -14,4 +14,4 @@ yarn dev or npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. And for the API endpoint/playground [http://localhost:3000/api/graphql](http://localhost:3000/api/graphql)
 
-You can analyze the schemas and to the api at **graphql** and **prisma** folders
+You can analyze the schemas and to the api at **graphql** and **prisma** folders at the root
