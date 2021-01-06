@@ -1,0 +1,17 @@
+type Customer {
+  id: Int!
+  first_name: String!
+  last_name: String!
+  email: String!
+  gender: String!
+  company: String!
+  city: String!
+  title: String!
+  lat: String
+  long: String
+}
+
+type TotalByCity {
+  city: String!
+  customers_total: Int!
+}

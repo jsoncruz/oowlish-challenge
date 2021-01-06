@@ -1,0 +1,11 @@
+# import Customer, TotalByCity from "schemas/customer.graphql"
+
+type Query {
+  totalCustomers(city: String!): TotalByCity
+  cityCustomers(city: String, page: Int): [Customer]!
+  customer(id: Int!): Customer
+}
+
+type Mutation {
+  seed: String!
+}
