@@ -1,6 +1,6 @@
 ## Getting Started
 
-After cloned and installed the app go to .env file and add your own google maps/geocoding api key
+After cloned and installed the app go to **.env** file and add your own google maps/geocoding api key
 
 ```bash
 GOOGLE_API_KEY="API_KEY_HERE"
